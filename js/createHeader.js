@@ -16,7 +16,7 @@ export const createClientsHeader = () => {
   container.classList.add('container', 'header__container');
   logo.classList.add('logo', 'header__logo');
   logoImg.classList.add('logo__img');
-  logoImg.src = 'img/logo3.svg';
+  logoImg.src = 'img/logo.webp';
   logoImg.alt = 'logotype Green Party';
   form.classList.add('header__form');
   input.classList.add('header__input');
@@ -24,7 +24,7 @@ export const createClientsHeader = () => {
   inner.classList.add('header__inner');
   input.placeholder = "Введите запрос";
 
-  // помещем элементы при помощи append в др элементы для отрисовки в DOM
+  // помещаем элементы при помощи append в др элементы для отрисовки в DOM
   header.append(container);
   logo.append(logoImg);
   form.append(input);
