@@ -28,7 +28,7 @@ export const createClientsHeader = () => {
   header.append('container');
   logo.append('logoImg');
   form.append('input');
-  container.append('logo', 'input');
+  container.append('form');
 
 
   return header;
