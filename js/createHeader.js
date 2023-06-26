@@ -16,7 +16,7 @@ export const createClientsHeader = () => {
   container.classList.add('container', 'header__container');
   logo.classList.add('logo', 'header__logo');
   logoImg.classList.add('logo__img');
-  logoImg.src = 'img/logo.png';
+  logoImg.src = 'img/logo3.svg';
   logoImg.alt = 'logotype Green Party';
   form.classList.add('header__form');
   input.classList.add('header__input');
