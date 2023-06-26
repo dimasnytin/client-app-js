@@ -18,7 +18,10 @@
 .header__logo{
   display: block;
   margin-right: 33px;
-  width: auto;
+}
+
+.logo__img{
+  width: 120px;
   height: 60px;
 }
 
