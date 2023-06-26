@@ -25,10 +25,10 @@ export const createClientsHeader = () => {
   input.placeholder = "Введите запрос";
 
   // помещем элементы при помощи append в др элементы для отрисовки в DOM
-  header.append('container');
-  logo.append('logoImg');
-  form.append('input');
-  container.append('form');
+  header.append(container);
+  logo.append(logoImg);
+  form.append(input);
+  container.append(logo, form);
 
 
   return header;
