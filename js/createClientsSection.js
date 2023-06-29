@@ -26,7 +26,7 @@ export const createClientsSection = () => {
   const createSpan = document.createElement('span');
   const editSpan = document.createElement('span');
 
-  // добавляем стили к html
+  // добавляем стили
   section.classList.add('clients');
   tableWrapper.classList.add('clients__wrapper');
   h1.classList.add('clients__heading');
@@ -39,6 +39,7 @@ export const createClientsSection = () => {
   sortingDisplayContacts.classList.add('display-info__item', 'display-info__item--contacts');
   sortingDisplayActions.classList.add('display-info__item', 'display-info__item--actions');
   sortingDisplaySpan.classList.add('display-info__sorting');
+  
   addUserBtn.classList.add('clients__btn', 'btn-reset');
   //addUserBtnSvg.classList.add('clients__svg');
   container.classList.add('container');
