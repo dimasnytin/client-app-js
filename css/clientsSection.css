@@ -13,3 +13,10 @@
     display: flex;
     flex-direction: column;
 }
+
+.display-info{
+   padding: 20px;
+   margin-bottom: 10px;
+   display: block;
+}
+
