@@ -19,7 +19,7 @@ export const createClientsSection = () => {
   const sortingDisplayActions = document.createElement('td');
   const sortingDisplaySpan = document.createElement('span');
   const addUserBtn = document.createElement('button');
-  const addUserBtnSvg = document.createElement('span');
+  const addUserSvgBtn = document.createElement('span');
   const tableWrapper = document.createElement('div');
   const clientsTable = document.createElement('table');
   const tbody = document.createElement('tbody');
