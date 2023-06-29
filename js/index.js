@@ -1,9 +1,14 @@
-import { createClientsHeader } from "./createHeader.js"
+import { createClientsHeader } from "./createHeader.js";
+import { createClientsSection } from "./createClientsSection.js";
+
+
+
 
 // вызываем все приложение
 const createApp = () => {
   const header = createClientsHeader();
-  document.body.append(header)
+  const clientsSection = createClientsSection();
+  document.body.append(header, clientsSection.main);
 }
 
 createApp();

@@ -1,5 +1,5 @@
 // import
-import { svgAddUser } from "./svg";
+import { svgAddUser } from "./svg.js";
 
 
 export const createClientsSection = () => {
@@ -52,10 +52,37 @@ export const createClientsSection = () => {
   h1.textContent = 'Клиенты';
   sortingDisplayId.textContent = 'id';
   sortingDisplayName.textContent = 'Фамилия Имя Отчество';
+  sortingDisplaySpan.textContent = 'а-я';
   sortingDisplayCreate.textContent = 'Дата и время';
   sortingDisplayEdit.textContent = 'Последние';
   sortingDisplayContacts.textContent = 'Контакты';
   sortingDisplayActions.textContent = 'Действия';
   addUserBtn.textContent = 'Добавить клиента';
   addUserBtn.innerHTML = svgAddUser;
+
+
+  main.append(section);
+  section.append(container);
+  sortingDisplay.appendChild(sortingDisplaySpan);
+  sortingDisplayCreate.append(createSpan);
+  sortingDisplayEdit.append(editSpan);
+  theadTr.append(
+    sortingDisplayId, 
+    sortingDisplayName,
+    sortingDisplayCreate,
+    sortingDisplayEdit,
+    sortingDisplayContacts,
+    sortingDisplayActions
+  );
+  sortingDisplay.append(theadTr);
+  tableWrapper.append(clientsTable);
+  clientsTable.append(sortingDisplay, tbody);
+  addUserBtn.append(addUserSvgBtn);
+  container.append(h1, tableWrapper, addUserBtn);
+
+  return{
+    main,
+    clientsTable,
+    tbody
+  }
 }
