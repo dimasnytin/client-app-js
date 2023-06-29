@@ -19,8 +19,7 @@ export const createClientsSection = () => {
   const sortingDisplayActions = document.createElement('td');
   const sortingDisplaySpan = document.createElement('span');
   const addUserBtn = document.createElement('button');
-  // 
-  const addUserBtnSvg = document.createElement('span');
+  const addUserSvgBtn = document.createElement('span');
   const tableWrapper = document.createElement('div');
   const clientsTable = document.createElement('table');
   const tbody = document.createElement('tbody');
@@ -41,8 +40,7 @@ export const createClientsSection = () => {
   sortingDisplayActions.classList.add('display-info__item', 'display-info__item--actions');
   sortingDisplaySpan.classList.add('display-info__sorting');
   addUserBtn.classList.add('clients__btn', 'btn-reset');
-  // 
-  addUserBtnSvg.classList.add('clients__svg');
+  //addUserBtnSvg.classList.add('clients__svg');
   container.classList.add('container');
   main.classList.add('main');
   clientsTable.classList.add('clients__table');
@@ -58,9 +56,8 @@ export const createClientsSection = () => {
   sortingDisplayCreate.textContent = 'Дата и время';
   sortingDisplayEdit.textContent = 'Последние';
   sortingDisplayContacts.textContent = 'Контакты';
-  sortingDisplayActions.textContent = 'Действия';
-  // 
-  addUserBtnSvg.textContent = 'Добавить клиента';
+  sortingDisplayActions.textContent = 'Действия'; 
+  addUserBtn.textContent = 'Добавить клиента';
   addUserBtn.innerHTML = svgAddUser;
 
 
