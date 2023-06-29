@@ -80,9 +80,9 @@ export const createClientsSection = () => {
   addUserBtn.append(addUserSvgBtn);
   container.append(h1, tableWrapper, addUserBtn);
 
-  return{
+  return
     main,
     clientsTable,
-    tbody
-  }
+    tbody;
+  
 }
