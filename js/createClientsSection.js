@@ -40,7 +40,7 @@ export const createClientsSection = () => {
   sortingDisplayActions.classList.add('display-info__item', 'display-info__item--actions');
   sortingDisplaySpan.classList.add('display-info__sorting');
   addUserBtn.classList.add('clients__btn', 'btn-reset');
-  addUserBtnSvg.classList.add('clients__svg');
+  // addUserBtnSvg.classList.add('clients__svg');
   container.classList.add('container');
   main.classList.add('main');
   clientsTable.classList.add('clients__table');
@@ -58,7 +58,7 @@ export const createClientsSection = () => {
   sortingDisplayContacts.textContent = 'Контакты';
   sortingDisplayActions.textContent = 'Действия';
   addUserBtn.textContent = 'Добавить клиента';
-  addUserBtnSvg.innerHTML = svgAddUser;
+  addUserBtn.innerHTML = svgAddUser;
 
 
   main.append(section);
@@ -80,9 +80,11 @@ export const createClientsSection = () => {
   addUserBtn.append(addUserSvgBtn);
   container.append(h1, tableWrapper, addUserBtn);
 
-  return
+  return {
     main,
     clientsTable,
-    tbody;
+    tbody
+  }
+    
   
 }

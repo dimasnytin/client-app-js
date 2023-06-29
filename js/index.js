@@ -8,7 +8,7 @@ import { createClientsSection } from "./createClientsSection.js";
 const createApp = () => {
   const header = createClientsHeader();
   const clientsSection = createClientsSection();
-  document.body.append(header, clientsSection);
+  document.body.append(header, clientsSection.main);
 }
 
 createApp();
