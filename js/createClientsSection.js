@@ -39,7 +39,6 @@ export const createClientsSection = () => {
   sortingDisplayContacts.classList.add('display-info__item', 'display-info__item--contacts');
   sortingDisplayActions.classList.add('display-info__item', 'display-info__item--actions');
   sortingDisplaySpan.classList.add('display-info__sorting');
-  
   addUserBtn.classList.add('clients__btn', 'btn-reset');
   //addUserBtnSvg.classList.add('clients__svg');
   container.classList.add('container');
@@ -64,9 +63,10 @@ export const createClientsSection = () => {
 
   main.append(section);
   section.append(container);
-  sortingDisplay.appendChild(sortingDisplaySpan);
+  sortingDisplayName.appendChild(sortingDisplaySpan);
   sortingDisplayCreate.append(createSpan);
   sortingDisplayEdit.append(editSpan);
+
   theadTr.append(
     sortingDisplayId, 
     sortingDisplayName,
@@ -75,6 +75,7 @@ export const createClientsSection = () => {
     sortingDisplayContacts,
     sortingDisplayActions
   );
+  
   sortingDisplay.append(theadTr);
   tableWrapper.append(clientsTable);
   clientsTable.append(sortingDisplay, tbody);
