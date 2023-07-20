@@ -25,4 +25,8 @@
     align-items: center;
 }
 
+.display-info__item{
+    color: var(--color-placeholder);
+}
+
 
