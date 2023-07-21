@@ -41,5 +41,6 @@
 .display-info__item--create,
 .display-info__item--change{
     cursor: pointer;
+    user-select: none;
 }
 
