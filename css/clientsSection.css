@@ -61,6 +61,7 @@
 }
 
 .display-info__item--create{
+    position: relative;
     padding-right: 70px;
     padding-left: 200px;
 }
@@ -78,6 +79,7 @@
 }
 
 .display-info__item--change{
+    position: relative;
     padding-right: 80px;
     margin-right: 28px;
     padding-left: 30px;
@@ -89,4 +91,12 @@
     right: 0;
     top: 0;
     margin-right: 13px;
+}
+
+.display-info__item--contacts{
+    padding-left: 30px;
+}
+
+.display-info__item--actions{
+    padding-left: 100px;
 }
