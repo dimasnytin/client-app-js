@@ -110,6 +110,19 @@
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
+.clients__btn svg{
+    display: block;
+    margin-right: 10px;
+    transition: fill 0.3s ease-in-out;
+    fill: var(--color-white);
+}
+
 .clients__btn:hover{
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    background-color: var(--color-blue);
+}
+
+.clients__btn:hover svg{
+    transition: fill 0.3s ease-in-out;
+    fill: var(--color-white);
 }
