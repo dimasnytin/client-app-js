@@ -27,7 +27,13 @@
 
 .display-info__item{
     color: var(--color-placeholder);
+    font-size: 12px;
 }
 
-/* https://youtu.be/2atu0m-kOhw?list=PLktakr6XMkP-FBr68wgI8xzMsXzE-ZqZF&t=2482 */
+.display-info__item--id{
+    text-transform: uppercase;
+    color: var(--color-blue);
+}
+
+
 
