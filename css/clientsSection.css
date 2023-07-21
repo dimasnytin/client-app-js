@@ -49,3 +49,29 @@
     margin-right: 60px;
     background-position: right center;
 }
+
+.display-info__item--name{
+    padding-left: 48px;
+    background-position: right 16px center;
+}
+
+.display-info__sorting{
+    padding-left: 11px;
+    font-size: 10px;
+}
+
+.display-info__item--create{
+    padding-right: 70px;
+}
+
+.display-info__item--create::before{
+    content: 'создания';
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 13px;
+}
+
+.display-info__item--create::after{
+
+}
