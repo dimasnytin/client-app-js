@@ -147,8 +147,10 @@
 
 .sort-up{
     background-image: url(../img/arrow-up.svg);
+    fill: var(--color-blue);
 }
 
 .sort-down{
     background-image: url(../img/arrow-down.svg);
+    fill: var(--color-blue);
 }
