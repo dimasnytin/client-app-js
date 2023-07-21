@@ -62,6 +62,7 @@
 
 .display-info__item--create{
     padding-right: 70px;
+    padding-left: 200px;
 }
 
 .display-info__item--create::before{
@@ -74,4 +75,18 @@
 
 .display-info__item--create::after{
 
+}
+
+.display-info__item--change{
+    padding-right: 80px;
+    margin-right: 28px;
+    padding-left: 30px;
+}
+
+.display-info__item--change::before{
+    content: 'изменения';
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 13px;
 }
