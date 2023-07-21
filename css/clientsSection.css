@@ -154,3 +154,8 @@
     background-image: url(../img/arrow-down.svg);
     fill: var(--color-blue);
 }
+
+.display-info__item--create,
+.display-info__item--change{
+    background-image: none;
+}
