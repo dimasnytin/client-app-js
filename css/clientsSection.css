@@ -126,3 +126,29 @@
     transition: fill 0.3s ease-in-out;
     fill: var(--color-white);
 }
+
+.create__span,
+.change__span{
+    display: inline-block;
+    width: 7px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(../img/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.sort-up,
+.sort-down{
+    background-repeat: no-repeat;
+}
+
+.sort-up{
+    background-image: url(../img/arrow-up.svg);
+}
+
+.sort-down{
+    background-image: url(../img/arrow-down.svg);
+}
