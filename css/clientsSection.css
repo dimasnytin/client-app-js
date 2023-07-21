@@ -70,7 +70,7 @@
     content: 'создания';
     position: absolute;
     right: 0;
-    top: 0;
+    top: 1px;
     margin-right: 13px;
 }
 
@@ -89,7 +89,7 @@
     content: 'изменения';
     position: absolute;
     right: 0;
-    top: 0;
+    top: 1px;
     margin-right: 13px;
 }
 
