@@ -15,6 +15,42 @@ export const createClientsForm = () => {
     const contactBtnSvgHover = document.createElement('span');
     const saveBtn = document.createElement('button');
     const cancelBtn = document.createElement('button');
+    const contactsBlock = document.createElement('div');
+    const formFloatingName = document.createElement('div');
+    const formFloatingSurname = document.createElement('div');
+    const formFloatingLastName = document.createElement('div');
+
+
+
+    modalTitle.classList.add('modal__title');
+    modalClose.classList.add('modal__close');
+    form.classList.add('modal__form');
+
+    inputName.classList.add('modal__input');
+    labelName.classList.add('modal__label');
+    inputSurname.classList.add('modal__input');
+    labelSurname.classList.add('modal__label');
+    inputLastname.classList.add('modal__input');
+    labelLastname.classList.add('modal__label');
+
+    requiredName.classList.add('modal__label');
+    requiredSurname.classList.add('modal__label');
+
+    addContactBtn.classList.add('modal__btn-contact', 'modal__btn-contact--active');
+
+    contactBtnSvgDefault.classList.add('btn-contact__svg', 'btn-contact__svg--default', 'btn-contact__svg--active');
+    contactBtnSvgHover.classList.add('modal__');
+
+    saveBtn.classList.add('modal__btn-save', 'btn-reset', 'site-btn');
+    cancelBtn.classList.add('modal__btn-back','btn-reset');
+
+    contactsBlock.classList.add('modal__');
+
+    formFloatingName.classList.add('form__floating');
+    formFloatingSurname.classList.add('form__floating');
+    formFloatingLastName.classList.add('form__floating');
+
+    // https://youtu.be/Xe3gaz_0qFQ?list=PLktakr6XMkP-FBr68wgI8xzMsXzE-ZqZF&t=1155
+
 }
 
-// https://youtu.be/Xe3gaz_0qFQ?list=PLktakr6XMkP-FBr68wgI8xzMsXzE-ZqZF&t=559
