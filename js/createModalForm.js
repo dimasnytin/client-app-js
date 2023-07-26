@@ -81,5 +81,39 @@ export const createClientsForm = () => {
     cancelBtn.textContent = 'Отмена';
     requiredName.textContent = '*';
     requiredSurname.textContent = '*';
+
+    // иконки svg добавляем 
+    contactBtnSvgDefault.innerHTML = svgContactDefault;
+    contactBtnSvgHover.innerHTML = svgContactHover;
+    
+    labelName.append(requiredName);
+    labelSurname.append(requiredSurname);
+    formFloatingName.append(inputName, labelName);
+    formFloatingSurname.append(inputName, labelSurname);
+    formFloatingLastName.append(inputLastName, labelLastName);
+    contactsBlock.append(addContactBtn);
+    form.append(
+        formFloatingName,
+        formFloatingSurname,
+        formFloatingLastName,
+        saveBtn,
+        cancelBtn,
+    );
+    addContactBtn.append(contactBtnSvgDefault, contactBtnSvgHover);
+
+    return {
+        form,
+        modalClose,
+        modalTitle,
+        cancelBtn,
+        inputName,
+        inputSurname,
+        inputLastName,
+        labelName,
+        labelSurname,
+        labelLastName,
+        contactsBlock,
+        addContactBtn
+    };
 }
 
