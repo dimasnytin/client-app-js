@@ -1,6 +1,6 @@
 // import
 import { svgAddUser } from "./svg.js";
-import { addClientModa } from "./addClient.js";
+import { addClientModal } from "./addClient.js";
 
 
 export const createClientsSection = () => {
