@@ -60,6 +60,11 @@ export const createClientsSection = () => {
   addUserBtn.textContent = 'Добавить клиента';
   addUserBtn.innerHTML = svgAddUser;
 
+  // появление модального окна
+  addUserBtn.addEventListener('click', () => {
+    document.body.append(addClientModal());
+  });
+
 
   main.append(section);
   section.append(container);
