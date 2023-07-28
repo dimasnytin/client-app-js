@@ -62,9 +62,9 @@ export const createClientsSection = () => {
   addUserBtn.innerHTML = svgAddUser;
 
   // появление модального окна
-  addUserBtn.addEventListener('click', () => {
-    document.body.append(addClientModal());
-  });
+  // addUserBtn.addEventListener('click', () => {
+  //   document.body.append(addClientModal());
+  // });
 
 
   main.append(section);
