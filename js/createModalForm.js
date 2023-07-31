@@ -84,7 +84,7 @@ export const createClientsForm = () => {
 
     // иконки svg добавляем 
     // contactBtnSvgDefault.innerHTML = svgContactDefault;
-    contactBtnSvgHover.innerHTML = svgContactHover;
+    // contactBtnSvgHover.innerHTML = svgContactHover;
     
     labelName.append(requiredName);
     labelSurname.append(requiredSurname);
